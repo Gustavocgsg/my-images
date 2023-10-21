@@ -1,0 +1,767 @@
+ gustavocgsg@GUSTAVO-DELL    ~    ERROR                                                                                                            bash   100   07:30:59 
+ ~  bash -x
++ '[' -z '\s-\v\$ ' ']'
++ shopt -s checkwinsize
++ '[' -z '' ']'
++ '[' -r /etc/debian_chroot ']'
++ '[' -n '' -a -n '' ']'
++ PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
++ '[' '!' -e /home/gustavocgsg/.sudo_as_admin_successful ']'
++ '[' -x /usr/lib/command-not-found -o -x /usr/share/command-not-found/command-not-found ']'
++ case $- in
++ HISTCONTROL=ignoreboth
++ shopt -s histappend
++ HISTSIZE=1000
++ HISTFILESIZE=2000
++ shopt -s checkwinsize
++ '[' -x /usr/bin/lesspipe ']'
+++ SHELL=/bin/sh
+++ lesspipe
++ eval 'export LESSOPEN="| /usr/bin/lesspipe %s";
+export LESSCLOSE="/usr/bin/lesspipe %s %s";'
+++ export 'LESSOPEN=| /usr/bin/lesspipe %s'
+++ LESSOPEN='| /usr/bin/lesspipe %s'
+++ export 'LESSCLOSE=/usr/bin/lesspipe %s %s'
+++ LESSCLOSE='/usr/bin/lesspipe %s %s'
++ '[' -z '' ']'
++ '[' -r /etc/debian_chroot ']'
++ case "$TERM" in
++ color_prompt=yes
++ '[' -n '' ']'
++ '[' yes = yes ']'
++ PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
++ unset color_prompt force_color_prompt
++ case "$TERM" in
++ PS1='\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
++ '[' -x /usr/bin/dircolors ']'
++ test -r /home/gustavocgsg/.dircolors
+++ dircolors -b
++ eval 'LS_COLORS='\''rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'\'';
+export LS_COLORS'
+++ LS_COLORS='rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+++ export LS_COLORS
++ alias 'ls=ls --color=auto'
++ alias 'grep=grep --color=auto'
++ alias 'fgrep=fgrep --color=auto'
++ alias 'egrep=egrep --color=auto'
++ alias 'll=ls -alF'
++ alias 'la=ls -A'
++ alias 'l=ls -CF'
++ alias 'alert=notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
++ '[' -f /home/gustavocgsg/.bash_aliases ']'
++ shopt -oq posix
++ '[' -f /usr/share/bash-completion/bash_completion ']'
++ . /usr/share/bash-completion/bash_completion
+++ BASH_COMPLETION_VERSINFO=(2 11)
+++ [[ himxBH == *v* ]]
+++ BASH_COMPLETION_ORIGINAL_V_VALUE=+v
+++ [[ -n '' ]]
+++ set +v
+++ _blacklist_glob='@(acroread.sh)'
+++ shopt -s extglob progcomp
+++ complete -u groups slay w sux
+++ complete -A stopped -P '"%' -S '"' bg
+++ complete -j -P '"%' -S '"' fg jobs disown
+++ complete -v readonly unset
+++ complete -A setopt set
+++ complete -A shopt shopt
+++ complete -A helptopic help
+++ complete -a unalias
+++ complete -c command type which
+++ complete -b builtin
+++ [[ linux-gnu == *@(solaris|aix)* ]]
+++ _backup_glob='@(#*#|*@(~|.@(bak|orig|rej|swp|dpkg*|rpm@(orig|new|save))))'
+++ complete -F _service service
+++ _sysvdirs
+++ sysvdirs=()
+++ [[ -d /etc/rc.d/init.d ]]
+++ [[ -d /etc/init.d ]]
+++ sysvdirs+=(/etc/init.d)
+++ [[ -f /etc/slackware-version ]]
+++ return 0
+++ for svcdir in "${sysvdirs[@]}"
+++ for svc in $svcdir/!($_backup_glob)
+++ [[ -x /etc/init.d/apparmor ]]
+++ complete -F _service /etc/init.d/apparmor
+++ for svc in $svcdir/!($_backup_glob)
+++ [[ -x /etc/init.d/apport ]]
+++ complete -F _service /etc/init.d/apport
+++ for svc in $svcdir/!($_backup_glob)
+++ [[ -x /etc/init.d/console-setup.sh ]]
+++ complete -F _service /etc/init.d/console-setup.sh
+++ for svc in $svcdir/!($_backup_glob)
+++ [[ -x /etc/init.d/cron ]]
+++ complete -F _service /etc/init.d/cron
+++ for svc in $svcdir/!($_backup_glob)
+++ [[ -x /etc/init.d/dbus ]]
+++ complete -F _service /etc/init.d/dbus
+++ for svc in $svcdir/!($_backup_glob)
+++ [[ -x /etc/init.d/hwclock.sh ]]
+++ complete -F _service /etc/init.d/hwclock.sh
+++ for svc in $svcdir/!($_backup_glob)
+++ [[ -x /etc/init.d/irqbalance ]]
+++ complete -F _service /etc/init.d/irqbalance
+++ for svc in $svcdir/!($_backup_glob)
+++ [[ -x /etc/init.d/keyboard-setup.sh ]]
+++ complete -F _service /etc/init.d/keyboard-setup.sh
+++ for svc in $svcdir/!($_backup_glob)
+++ [[ -x /etc/init.d/kmod ]]
+++ complete -F _service /etc/init.d/kmod
+++ for svc in $svcdir/!($_backup_glob)
+++ [[ -x /etc/init.d/plymouth ]]
+++ complete -F _service /etc/init.d/plymouth
+++ for svc in $svcdir/!($_backup_glob)
+++ [[ -x /etc/init.d/plymouth-log ]]
+++ complete -F _service /etc/init.d/plymouth-log
+++ for svc in $svcdir/!($_backup_glob)
+++ [[ -x /etc/init.d/procps ]]
+++ complete -F _service /etc/init.d/procps
+++ for svc in $svcdir/!($_backup_glob)
+++ [[ -x /etc/init.d/rsync ]]
+++ complete -F _service /etc/init.d/rsync
+++ for svc in $svcdir/!($_backup_glob)
+++ [[ -x /etc/init.d/screen-cleanup ]]
+++ complete -F _service /etc/init.d/screen-cleanup
+++ for svc in $svcdir/!($_backup_glob)
+++ [[ -x /etc/init.d/udev ]]
+++ complete -F _service /etc/init.d/udev
+++ for svc in $svcdir/!($_backup_glob)
+++ [[ -x /etc/init.d/ufw ]]
+++ complete -F _service /etc/init.d/ufw
+++ for svc in $svcdir/!($_backup_glob)
+++ [[ -x /etc/init.d/unattended-upgrades ]]
+++ complete -F _service /etc/init.d/unattended-upgrades
+++ for svc in $svcdir/!($_backup_glob)
+++ [[ -x /etc/init.d/uuidd ]]
+++ complete -F _service /etc/init.d/uuidd
+++ unset svc svcdir sysvdirs
+++ [[ linux-gnu == *freebsd* ]]
+++ shopt -u hostcomplete
+++ complete -F _user_at_host talk ytalk finger
+++ complete -F _known_hosts traceroute traceroute6 fping fping6 telnet rsh rlogin ftp dig mtr ssh-installkeys showmount
+++ shopt -q cdable_vars
+++ complete -F _cd -o nospace cd pushd
+++ complete -F _command aoss command do else eval exec ltrace nice nohup padsp then time tsocks vsound xargs
+++ complete -F _root_command fakeroot gksu gksudo kdesudo really
+++ complete -F _longopt a2ps awk base64 bash bc bison cat chroot colordiff cp csplit cut date df diff dir du enscript env expand fmt fold gperf grep grub head irb ld ldd less ln ls m4 md5sum mkdir mkfifo mknod mv netstat nl nm objcopy objdump od paste pr ptx readelf rm rmdir sed seq shasum sha1sum sha224sum sha256sum sha384sum sha512sum shar sort split strip sum tac tail tee texindex touch tr uname unexpand uniq units vdir wc who
+++ declare -Ag _xspecs
+++ _install_xspec '!*.?(t)bz?(2)' bunzip2 bzcat pbunzip2 pbzcat lbunzip2 lbzcat
+++ local 'xspec=!*.?(t)bz?(2)' cmd
+++ shift
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.?(t)bz?(2)'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.?(t)bz?(2)'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.?(t)bz?(2)'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.?(t)bz?(2)'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.?(t)bz?(2)'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.?(t)bz?(2)'
+++ _install_xspec '!*.@(zip|[aegjswx]ar|exe|pk3|wsz|zargo|xpi|s[tx][cdiw]|sx[gm]|o[dt][tspgfc]|od[bm]|oxt|epub|apk|aab|ipa|do[ct][xm]|p[op]t[mx]|xl[st][xm]|pyz|whl)' unzip zipinfo
+++ local 'xspec=!*.@(zip|[aegjswx]ar|exe|pk3|wsz|zargo|xpi|s[tx][cdiw]|sx[gm]|o[dt][tspgfc]|od[bm]|oxt|epub|apk|aab|ipa|do[ct][xm]|p[op]t[mx]|xl[st][xm]|pyz|whl)' cmd
+++ shift
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(zip|[aegjswx]ar|exe|pk3|wsz|zargo|xpi|s[tx][cdiw]|sx[gm]|o[dt][tspgfc]|od[bm]|oxt|epub|apk|aab|ipa|do[ct][xm]|p[op]t[mx]|xl[st][xm]|pyz|whl)'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(zip|[aegjswx]ar|exe|pk3|wsz|zargo|xpi|s[tx][cdiw]|sx[gm]|o[dt][tspgfc]|od[bm]|oxt|epub|apk|aab|ipa|do[ct][xm]|p[op]t[mx]|xl[st][xm]|pyz|whl)'
+++ _install_xspec '*.Z' compress znew
+++ local 'xspec=*.Z' cmd
+++ shift
+++ for cmd in "$@"
+++ _xspecs[$cmd]='*.Z'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='*.Z'
+++ _install_xspec '!*.@(Z|[gGd]z|t[ag]z)' gunzip zcat
+++ local 'xspec=!*.@(Z|[gGd]z|t[ag]z)' cmd
+++ shift
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(Z|[gGd]z|t[ag]z)'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(Z|[gGd]z|t[ag]z)'
+++ _install_xspec '!*.@(Z|[gGdz]z|t[ag]z)' unpigz
+++ local 'xspec=!*.@(Z|[gGdz]z|t[ag]z)' cmd
+++ shift
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(Z|[gGdz]z|t[ag]z)'
+++ _install_xspec '!*.Z' uncompress
+++ local 'xspec=!*.Z' cmd
+++ shift
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.Z'
+++ _install_xspec '!*.@(tlz|lzma)' lzcat lzegrep lzfgrep lzgrep lzless lzmore unlzma
+++ local 'xspec=!*.@(tlz|lzma)' cmd
+++ shift
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(tlz|lzma)'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(tlz|lzma)'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(tlz|lzma)'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(tlz|lzma)'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(tlz|lzma)'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(tlz|lzma)'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(tlz|lzma)'
+++ _install_xspec '!*.@(?(t)xz|tlz|lzma)' unxz xzcat
+++ local 'xspec=!*.@(?(t)xz|tlz|lzma)' cmd
+++ shift
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(?(t)xz|tlz|lzma)'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(?(t)xz|tlz|lzma)'
+++ _install_xspec '!*.lrz' lrunzip
+++ local 'xspec=!*.lrz' cmd
+++ shift
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.lrz'
+++ _install_xspec '!*.@(gif|jp?(e)g|miff|tif?(f)|pn[gm]|p[bgp]m|bmp|xpm|ico|xwd|tga|pcx)' ee
+++ local 'xspec=!*.@(gif|jp?(e)g|miff|tif?(f)|pn[gm]|p[bgp]m|bmp|xpm|ico|xwd|tga|pcx)' cmd
+++ shift
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(gif|jp?(e)g|miff|tif?(f)|pn[gm]|p[bgp]m|bmp|xpm|ico|xwd|tga|pcx)'
+++ _install_xspec '!*.@(gif|jp?(e)g|tif?(f)|png|p[bgp]m|bmp|x[bp]m|rle|rgb|pcx|fits|pm|svg)' qiv
+++ local 'xspec=!*.@(gif|jp?(e)g|tif?(f)|png|p[bgp]m|bmp|x[bp]m|rle|rgb|pcx|fits|pm|svg)' cmd
+++ shift
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(gif|jp?(e)g|tif?(f)|png|p[bgp]m|bmp|x[bp]m|rle|rgb|pcx|fits|pm|svg)'
+++ _install_xspec '!*.@(gif|jp?(e)g?(2)|j2[ck]|jp[2f]|tif?(f)|png|p[bgp]m|bmp|x[bp]m|rle|rgb|pcx|fits|pm|?(e)ps)' xv
+++ local 'xspec=!*.@(gif|jp?(e)g?(2)|j2[ck]|jp[2f]|tif?(f)|png|p[bgp]m|bmp|x[bp]m|rle|rgb|pcx|fits|pm|?(e)ps)' cmd
+++ shift
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(gif|jp?(e)g?(2)|j2[ck]|jp[2f]|tif?(f)|png|p[bgp]m|bmp|x[bp]m|rle|rgb|pcx|fits|pm|?(e)ps)'
+++ _install_xspec '!*.@(@(?(e)ps|?(E)PS|pdf|PDF)?(.gz|.GZ|.bz2|.BZ2|.Z))' gv ggv kghostview
+++ local 'xspec=!*.@(@(?(e)ps|?(E)PS|pdf|PDF)?(.gz|.GZ|.bz2|.BZ2|.Z))' cmd
+++ shift
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(@(?(e)ps|?(E)PS|pdf|PDF)?(.gz|.GZ|.bz2|.BZ2|.Z))'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(@(?(e)ps|?(E)PS|pdf|PDF)?(.gz|.GZ|.bz2|.BZ2|.Z))'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(@(?(e)ps|?(E)PS|pdf|PDF)?(.gz|.GZ|.bz2|.BZ2|.Z))'
+++ _install_xspec '!*.@(dvi|DVI)?(.@(gz|Z|bz2))' xdvi kdvi
+++ local 'xspec=!*.@(dvi|DVI)?(.@(gz|Z|bz2))' cmd
+++ shift
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(dvi|DVI)?(.@(gz|Z|bz2))'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(dvi|DVI)?(.@(gz|Z|bz2))'
+++ _install_xspec '!*.dvi' dvips dviselect dvitype dvipdf advi dvipdfm dvipdfmx
+++ local 'xspec=!*.dvi' cmd
+++ shift
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.dvi'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.dvi'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.dvi'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.dvi'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.dvi'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.dvi'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.dvi'
+++ _install_xspec '!*.[pf]df' acroread gpdf
+++ local 'xspec=!*.[pf]df' cmd
+++ shift
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.[pf]df'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.[pf]df'
+++ _install_xspec '!*.@(pdf|fdf)?(.@(gz|GZ|bz2|BZ2|Z))' xpdf
+++ local 'xspec=!*.@(pdf|fdf)?(.@(gz|GZ|bz2|BZ2|Z))' cmd
+++ shift
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(pdf|fdf)?(.@(gz|GZ|bz2|BZ2|Z))'
+++ _install_xspec '!*.@(?(e)ps|pdf)' kpdf
+++ local 'xspec=!*.@(?(e)ps|pdf)' cmd
+++ shift
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(?(e)ps|pdf)'
+++ _install_xspec '!*.@(okular|@(?(e|x)ps|?(E|X)PS|[pf]df|[PF]DF|dvi|DVI|cb[rz]|CB[RZ]|djv?(u)|DJV?(U)|dvi|DVI|gif|jp?(e)g|miff|tif?(f)|pn[gm]|p[bgp]m|bmp|xpm|ico|xwd|tga|pcx|GIF|JP?(E)G|MIFF|TIF?(F)|PN[GM]|P[BGP]M|BMP|XPM|ICO|XWD|TGA|PCX|epub|EPUB|odt|ODT|fb?(2)|FB?(2)|mobi|MOBI|g3|G3|chm|CHM)?(.?(gz|GZ|bz2|BZ2|xz|XZ)))' okular
+++ local 'xspec=!*.@(okular|@(?(e|x)ps|?(E|X)PS|[pf]df|[PF]DF|dvi|DVI|cb[rz]|CB[RZ]|djv?(u)|DJV?(U)|dvi|DVI|gif|jp?(e)g|miff|tif?(f)|pn[gm]|p[bgp]m|bmp|xpm|ico|xwd|tga|pcx|GIF|JP?(E)G|MIFF|TIF?(F)|PN[GM]|P[BGP]M|BMP|XPM|ICO|XWD|TGA|PCX|epub|EPUB|odt|ODT|fb?(2)|FB?(2)|mobi|MOBI|g3|G3|chm|CHM)?(.?(gz|GZ|bz2|BZ2|xz|XZ)))' cmd
+++ shift
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(okular|@(?(e|x)ps|?(E|X)PS|[pf]df|[PF]DF|dvi|DVI|cb[rz]|CB[RZ]|djv?(u)|DJV?(U)|dvi|DVI|gif|jp?(e)g|miff|tif?(f)|pn[gm]|p[bgp]m|bmp|xpm|ico|xwd|tga|pcx|GIF|JP?(E)G|MIFF|TIF?(F)|PN[GM]|P[BGP]M|BMP|XPM|ICO|XWD|TGA|PCX|epub|EPUB|odt|ODT|fb?(2)|FB?(2)|mobi|MOBI|g3|G3|chm|CHM)?(.?(gz|GZ|bz2|BZ2|xz|XZ)))'
+++ _install_xspec '!*.pdf' epdfview pdfunite
+++ local 'xspec=!*.pdf' cmd
+++ shift
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.pdf'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.pdf'
+++ _install_xspec '!*.@(cb[rz7t]|djv?(u)|?(e)ps|pdf)' zathura
+++ local 'xspec=!*.@(cb[rz7t]|djv?(u)|?(e)ps|pdf)' cmd
+++ shift
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(cb[rz7t]|djv?(u)|?(e)ps|pdf)'
+++ _install_xspec '!*.@(?(e)ps|pdf)' ps2pdf ps2pdf12 ps2pdf13 ps2pdf14 ps2pdfwr
+++ local 'xspec=!*.@(?(e)ps|pdf)' cmd
+++ shift
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(?(e)ps|pdf)'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(?(e)ps|pdf)'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(?(e)ps|pdf)'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(?(e)ps|pdf)'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(?(e)ps|pdf)'
+++ _install_xspec '!*.texi*' makeinfo texi2html
+++ local 'xspec=!*.texi*' cmd
+++ shift
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.texi*'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.texi*'
+++ _install_xspec '!*.@(?(la)tex|texi|dtx|ins|ltx|dbj)' tex latex slitex jadetex pdfjadetex pdftex pdflatex texi2dvi xetex xelatex luatex lualatex
+++ local 'xspec=!*.@(?(la)tex|texi|dtx|ins|ltx|dbj)' cmd
+++ shift
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(?(la)tex|texi|dtx|ins|ltx|dbj)'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(?(la)tex|texi|dtx|ins|ltx|dbj)'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(?(la)tex|texi|dtx|ins|ltx|dbj)'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(?(la)tex|texi|dtx|ins|ltx|dbj)'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(?(la)tex|texi|dtx|ins|ltx|dbj)'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(?(la)tex|texi|dtx|ins|ltx|dbj)'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(?(la)tex|texi|dtx|ins|ltx|dbj)'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(?(la)tex|texi|dtx|ins|ltx|dbj)'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(?(la)tex|texi|dtx|ins|ltx|dbj)'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(?(la)tex|texi|dtx|ins|ltx|dbj)'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(?(la)tex|texi|dtx|ins|ltx|dbj)'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(?(la)tex|texi|dtx|ins|ltx|dbj)'
+++ _install_xspec '!*.mp3' mpg123 mpg321 madplay
+++ local 'xspec=!*.mp3' cmd
+++ shift
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.mp3'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.mp3'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.mp3'
+++ _install_xspec '!*@(.@(mp?(e)g|MP?(E)G|wm[av]|WM[AV]|avi|AVI|asf|vob|VOB|bin|dat|divx|DIVX|vcd|ps|pes|fli|flv|FLV|fxm|FXM|viv|rm|ram|yuv|mov|MOV|qt|QT|web[am]|WEB[AM]|mp[234]|MP[234]|m?(p)4[av]|M?(P)4[AV]|mkv|MKV|og[agmvx]|OG[AGMVX]|t[ps]|T[PS]|m2t?(s)|M2T?(S)|mts|MTS|wav|WAV|flac|FLAC|asx|ASX|mng|MNG|srt|m[eo]d|M[EO]D|s[3t]m|S[3T]M|it|IT|xm|XM)|+([0-9]).@(vdr|VDR))?(.@(crdownload|part))' xine aaxine fbxine
+++ local 'xspec=!*@(.@(mp?(e)g|MP?(E)G|wm[av]|WM[AV]|avi|AVI|asf|vob|VOB|bin|dat|divx|DIVX|vcd|ps|pes|fli|flv|FLV|fxm|FXM|viv|rm|ram|yuv|mov|MOV|qt|QT|web[am]|WEB[AM]|mp[234]|MP[234]|m?(p)4[av]|M?(P)4[AV]|mkv|MKV|og[agmvx]|OG[AGMVX]|t[ps]|T[PS]|m2t?(s)|M2T?(S)|mts|MTS|wav|WAV|flac|FLAC|asx|ASX|mng|MNG|srt|m[eo]d|M[EO]D|s[3t]m|S[3T]M|it|IT|xm|XM)|+([0-9]).@(vdr|VDR))?(.@(crdownload|part))' cmd
+++ shift
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*@(.@(mp?(e)g|MP?(E)G|wm[av]|WM[AV]|avi|AVI|asf|vob|VOB|bin|dat|divx|DIVX|vcd|ps|pes|fli|flv|FLV|fxm|FXM|viv|rm|ram|yuv|mov|MOV|qt|QT|web[am]|WEB[AM]|mp[234]|MP[234]|m?(p)4[av]|M?(P)4[AV]|mkv|MKV|og[agmvx]|OG[AGMVX]|t[ps]|T[PS]|m2t?(s)|M2T?(S)|mts|MTS|wav|WAV|flac|FLAC|asx|ASX|mng|MNG|srt|m[eo]d|M[EO]D|s[3t]m|S[3T]M|it|IT|xm|XM)|+([0-9]).@(vdr|VDR))?(.@(crdownload|part))'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*@(.@(mp?(e)g|MP?(E)G|wm[av]|WM[AV]|avi|AVI|asf|vob|VOB|bin|dat|divx|DIVX|vcd|ps|pes|fli|flv|FLV|fxm|FXM|viv|rm|ram|yuv|mov|MOV|qt|QT|web[am]|WEB[AM]|mp[234]|MP[234]|m?(p)4[av]|M?(P)4[AV]|mkv|MKV|og[agmvx]|OG[AGMVX]|t[ps]|T[PS]|m2t?(s)|M2T?(S)|mts|MTS|wav|WAV|flac|FLAC|asx|ASX|mng|MNG|srt|m[eo]d|M[EO]D|s[3t]m|S[3T]M|it|IT|xm|XM)|+([0-9]).@(vdr|VDR))?(.@(crdownload|part))'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*@(.@(mp?(e)g|MP?(E)G|wm[av]|WM[AV]|avi|AVI|asf|vob|VOB|bin|dat|divx|DIVX|vcd|ps|pes|fli|flv|FLV|fxm|FXM|viv|rm|ram|yuv|mov|MOV|qt|QT|web[am]|WEB[AM]|mp[234]|MP[234]|m?(p)4[av]|M?(P)4[AV]|mkv|MKV|og[agmvx]|OG[AGMVX]|t[ps]|T[PS]|m2t?(s)|M2T?(S)|mts|MTS|wav|WAV|flac|FLAC|asx|ASX|mng|MNG|srt|m[eo]d|M[EO]D|s[3t]m|S[3T]M|it|IT|xm|XM)|+([0-9]).@(vdr|VDR))?(.@(crdownload|part))'
+++ _install_xspec '!*@(.@(mp?(e)g|MP?(E)G|wm[av]|WM[AV]|avi|AVI|asf|vob|VOB|bin|dat|divx|DIVX|vcd|ps|pes|fli|flv|FLV|fxm|FXM|viv|rm|ram|yuv|mov|MOV|qt|QT|web[am]|WEB[AM]|mp[234]|MP[234]|m?(p)4[av]|M?(P)4[AV]|mkv|MKV|og[agmvx]|OG[AGMVX]|t[ps]|T[PS]|m2t?(s)|M2T?(S)|mts|MTS|wav|WAV|flac|FLAC|asx|ASX|mng|MNG|srt|m[eo]d|M[EO]D|s[3t]m|S[3T]M|it|IT|xm|XM|iso|ISO)|+([0-9]).@(vdr|VDR))?(.@(crdownload|part))' kaffeine dragon totem
+++ local 'xspec=!*@(.@(mp?(e)g|MP?(E)G|wm[av]|WM[AV]|avi|AVI|asf|vob|VOB|bin|dat|divx|DIVX|vcd|ps|pes|fli|flv|FLV|fxm|FXM|viv|rm|ram|yuv|mov|MOV|qt|QT|web[am]|WEB[AM]|mp[234]|MP[234]|m?(p)4[av]|M?(P)4[AV]|mkv|MKV|og[agmvx]|OG[AGMVX]|t[ps]|T[PS]|m2t?(s)|M2T?(S)|mts|MTS|wav|WAV|flac|FLAC|asx|ASX|mng|MNG|srt|m[eo]d|M[EO]D|s[3t]m|S[3T]M|it|IT|xm|XM|iso|ISO)|+([0-9]).@(vdr|VDR))?(.@(crdownload|part))' cmd
+++ shift
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*@(.@(mp?(e)g|MP?(E)G|wm[av]|WM[AV]|avi|AVI|asf|vob|VOB|bin|dat|divx|DIVX|vcd|ps|pes|fli|flv|FLV|fxm|FXM|viv|rm|ram|yuv|mov|MOV|qt|QT|web[am]|WEB[AM]|mp[234]|MP[234]|m?(p)4[av]|M?(P)4[AV]|mkv|MKV|og[agmvx]|OG[AGMVX]|t[ps]|T[PS]|m2t?(s)|M2T?(S)|mts|MTS|wav|WAV|flac|FLAC|asx|ASX|mng|MNG|srt|m[eo]d|M[EO]D|s[3t]m|S[3T]M|it|IT|xm|XM|iso|ISO)|+([0-9]).@(vdr|VDR))?(.@(crdownload|part))'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*@(.@(mp?(e)g|MP?(E)G|wm[av]|WM[AV]|avi|AVI|asf|vob|VOB|bin|dat|divx|DIVX|vcd|ps|pes|fli|flv|FLV|fxm|FXM|viv|rm|ram|yuv|mov|MOV|qt|QT|web[am]|WEB[AM]|mp[234]|MP[234]|m?(p)4[av]|M?(P)4[AV]|mkv|MKV|og[agmvx]|OG[AGMVX]|t[ps]|T[PS]|m2t?(s)|M2T?(S)|mts|MTS|wav|WAV|flac|FLAC|asx|ASX|mng|MNG|srt|m[eo]d|M[EO]D|s[3t]m|S[3T]M|it|IT|xm|XM|iso|ISO)|+([0-9]).@(vdr|VDR))?(.@(crdownload|part))'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*@(.@(mp?(e)g|MP?(E)G|wm[av]|WM[AV]|avi|AVI|asf|vob|VOB|bin|dat|divx|DIVX|vcd|ps|pes|fli|flv|FLV|fxm|FXM|viv|rm|ram|yuv|mov|MOV|qt|QT|web[am]|WEB[AM]|mp[234]|MP[234]|m?(p)4[av]|M?(P)4[AV]|mkv|MKV|og[agmvx]|OG[AGMVX]|t[ps]|T[PS]|m2t?(s)|M2T?(S)|mts|MTS|wav|WAV|flac|FLAC|asx|ASX|mng|MNG|srt|m[eo]d|M[EO]D|s[3t]m|S[3T]M|it|IT|xm|XM|iso|ISO)|+([0-9]).@(vdr|VDR))?(.@(crdownload|part))'
+++ _install_xspec '!*.@(avi|asf|wmv)' aviplay
+++ local 'xspec=!*.@(avi|asf|wmv)' cmd
+++ shift
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(avi|asf|wmv)'
+++ _install_xspec '!*.@(rm?(j)|ra?(m)|smi?(l))' realplay
+++ local 'xspec=!*.@(rm?(j)|ra?(m)|smi?(l))' cmd
+++ shift
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(rm?(j)|ra?(m)|smi?(l))'
+++ _install_xspec '!*.@(mpg|mpeg|avi|mov|qt)' xanim
+++ local 'xspec=!*.@(mpg|mpeg|avi|mov|qt)' cmd
+++ shift
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(mpg|mpeg|avi|mov|qt)'
+++ _install_xspec '!*.@(og[ag]|m3u|flac|spx)' ogg123
+++ local 'xspec=!*.@(og[ag]|m3u|flac|spx)' cmd
+++ shift
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(og[ag]|m3u|flac|spx)'
+++ _install_xspec '!*.@(mp3|og[ag]|pls|m3u)' gqmpeg freeamp
+++ local 'xspec=!*.@(mp3|og[ag]|pls|m3u)' cmd
+++ shift
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(mp3|og[ag]|pls|m3u)'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(mp3|og[ag]|pls|m3u)'
+++ _install_xspec '!*.fig' xfig
+++ local 'xspec=!*.fig' cmd
+++ shift
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.fig'
+++ _install_xspec '!*.@(mid?(i)|cmf)' playmidi
+++ local 'xspec=!*.@(mid?(i)|cmf)' cmd
+++ shift
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(mid?(i)|cmf)'
+++ _install_xspec '!*.@(mid?(i)|rmi|rcp|[gr]36|g18|mod|xm|it|x3m|s[3t]m|kar)' timidity
+++ local 'xspec=!*.@(mid?(i)|rmi|rcp|[gr]36|g18|mod|xm|it|x3m|s[3t]m|kar)' cmd
+++ shift
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(mid?(i)|rmi|rcp|[gr]36|g18|mod|xm|it|x3m|s[3t]m|kar)'
+++ _install_xspec '!*.@(669|abc|am[fs]|d[bs]m|dmf|far|it|mdl|m[eo]d|mid?(i)|mt[2m]|oct|okt?(a)|p[st]m|s[3t]m|ult|umx|wav|xm)' modplugplay modplug123
+++ local 'xspec=!*.@(669|abc|am[fs]|d[bs]m|dmf|far|it|mdl|m[eo]d|mid?(i)|mt[2m]|oct|okt?(a)|p[st]m|s[3t]m|ult|umx|wav|xm)' cmd
+++ shift
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(669|abc|am[fs]|d[bs]m|dmf|far|it|mdl|m[eo]d|mid?(i)|mt[2m]|oct|okt?(a)|p[st]m|s[3t]m|ult|umx|wav|xm)'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(669|abc|am[fs]|d[bs]m|dmf|far|it|mdl|m[eo]d|mid?(i)|mt[2m]|oct|okt?(a)|p[st]m|s[3t]m|ult|umx|wav|xm)'
+++ _install_xspec '*.@([ao]|so|so.!(conf|*/*)|[rs]pm|gif|jp?(e)g|mp3|mp?(e)g|avi|asf|ogg|class)' vi vim gvim rvim view rview rgvim rgview gview emacs xemacs sxemacs kate kwrite
+++ local 'xspec=*.@([ao]|so|so.!(conf|*/*)|[rs]pm|gif|jp?(e)g|mp3|mp?(e)g|avi|asf|ogg|class)' cmd
+++ shift
+++ for cmd in "$@"
+++ _xspecs[$cmd]='*.@([ao]|so|so.!(conf|*/*)|[rs]pm|gif|jp?(e)g|mp3|mp?(e)g|avi|asf|ogg|class)'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='*.@([ao]|so|so.!(conf|*/*)|[rs]pm|gif|jp?(e)g|mp3|mp?(e)g|avi|asf|ogg|class)'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='*.@([ao]|so|so.!(conf|*/*)|[rs]pm|gif|jp?(e)g|mp3|mp?(e)g|avi|asf|ogg|class)'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='*.@([ao]|so|so.!(conf|*/*)|[rs]pm|gif|jp?(e)g|mp3|mp?(e)g|avi|asf|ogg|class)'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='*.@([ao]|so|so.!(conf|*/*)|[rs]pm|gif|jp?(e)g|mp3|mp?(e)g|avi|asf|ogg|class)'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='*.@([ao]|so|so.!(conf|*/*)|[rs]pm|gif|jp?(e)g|mp3|mp?(e)g|avi|asf|ogg|class)'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='*.@([ao]|so|so.!(conf|*/*)|[rs]pm|gif|jp?(e)g|mp3|mp?(e)g|avi|asf|ogg|class)'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='*.@([ao]|so|so.!(conf|*/*)|[rs]pm|gif|jp?(e)g|mp3|mp?(e)g|avi|asf|ogg|class)'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='*.@([ao]|so|so.!(conf|*/*)|[rs]pm|gif|jp?(e)g|mp3|mp?(e)g|avi|asf|ogg|class)'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='*.@([ao]|so|so.!(conf|*/*)|[rs]pm|gif|jp?(e)g|mp3|mp?(e)g|avi|asf|ogg|class)'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='*.@([ao]|so|so.!(conf|*/*)|[rs]pm|gif|jp?(e)g|mp3|mp?(e)g|avi|asf|ogg|class)'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='*.@([ao]|so|so.!(conf|*/*)|[rs]pm|gif|jp?(e)g|mp3|mp?(e)g|avi|asf|ogg|class)'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='*.@([ao]|so|so.!(conf|*/*)|[rs]pm|gif|jp?(e)g|mp3|mp?(e)g|avi|asf|ogg|class)'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='*.@([ao]|so|so.!(conf|*/*)|[rs]pm|gif|jp?(e)g|mp3|mp?(e)g|avi|asf|ogg|class)'
+++ _install_xspec '!*.@(zip|z|gz|tgz)' bzme
+++ local 'xspec=!*.@(zip|z|gz|tgz)' cmd
+++ shift
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(zip|z|gz|tgz)'
+++ _install_xspec '!*.@(?([xX]|[sS])[hH][tT][mM]?([lL]))' netscape mozilla lynx galeon dillo elinks amaya epiphany
+++ local 'xspec=!*.@(?([xX]|[sS])[hH][tT][mM]?([lL]))' cmd
+++ shift
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(?([xX]|[sS])[hH][tT][mM]?([lL]))'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(?([xX]|[sS])[hH][tT][mM]?([lL]))'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(?([xX]|[sS])[hH][tT][mM]?([lL]))'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(?([xX]|[sS])[hH][tT][mM]?([lL]))'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(?([xX]|[sS])[hH][tT][mM]?([lL]))'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(?([xX]|[sS])[hH][tT][mM]?([lL]))'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(?([xX]|[sS])[hH][tT][mM]?([lL]))'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(?([xX]|[sS])[hH][tT][mM]?([lL]))'
+++ _install_xspec '!*.@(sxw|stw|sxg|sgl|doc?([mx])|dot?([mx])|rtf|txt|htm|html|?(f)odt|ott|odm|pdf)' oowriter lowriter
+++ local 'xspec=!*.@(sxw|stw|sxg|sgl|doc?([mx])|dot?([mx])|rtf|txt|htm|html|?(f)odt|ott|odm|pdf)' cmd
+++ shift
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(sxw|stw|sxg|sgl|doc?([mx])|dot?([mx])|rtf|txt|htm|html|?(f)odt|ott|odm|pdf)'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(sxw|stw|sxg|sgl|doc?([mx])|dot?([mx])|rtf|txt|htm|html|?(f)odt|ott|odm|pdf)'
+++ _install_xspec '!*.@(sxi|sti|pps?(x)|ppt?([mx])|pot?([mx])|?(f)odp|otp)' ooimpress loimpress
+++ local 'xspec=!*.@(sxi|sti|pps?(x)|ppt?([mx])|pot?([mx])|?(f)odp|otp)' cmd
+++ shift
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(sxi|sti|pps?(x)|ppt?([mx])|pot?([mx])|?(f)odp|otp)'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(sxi|sti|pps?(x)|ppt?([mx])|pot?([mx])|?(f)odp|otp)'
+++ _install_xspec '!*.@(sxc|stc|xls?([bmx])|xlw|xlt?([mx])|[ct]sv|?(f)ods|ots)' oocalc localc
+++ local 'xspec=!*.@(sxc|stc|xls?([bmx])|xlw|xlt?([mx])|[ct]sv|?(f)ods|ots)' cmd
+++ shift
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(sxc|stc|xls?([bmx])|xlw|xlt?([mx])|[ct]sv|?(f)ods|ots)'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(sxc|stc|xls?([bmx])|xlw|xlt?([mx])|[ct]sv|?(f)ods|ots)'
+++ _install_xspec '!*.@(sxd|std|sda|sdd|?(f)odg|otg)' oodraw lodraw
+++ local 'xspec=!*.@(sxd|std|sda|sdd|?(f)odg|otg)' cmd
+++ shift
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(sxd|std|sda|sdd|?(f)odg|otg)'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(sxd|std|sda|sdd|?(f)odg|otg)'
+++ _install_xspec '!*.@(sxm|smf|mml|odf)' oomath lomath
+++ local 'xspec=!*.@(sxm|smf|mml|odf)' cmd
+++ shift
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(sxm|smf|mml|odf)'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(sxm|smf|mml|odf)'
+++ _install_xspec '!*.odb' oobase lobase
+++ local 'xspec=!*.odb' cmd
+++ shift
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.odb'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.odb'
+++ _install_xspec '!*.[rs]pm' rpm2cpio
+++ local 'xspec=!*.[rs]pm' cmd
+++ shift
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.[rs]pm'
+++ _install_xspec '!*.aux' bibtex
+++ local 'xspec=!*.aux' cmd
+++ shift
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.aux'
+++ _install_xspec '!*.po' poedit gtranslator kbabel lokalize
+++ local 'xspec=!*.po' cmd
+++ shift
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.po'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.po'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.po'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.po'
+++ _install_xspec '!*.@([Pp][Rr][Gg]|[Cc][Ll][Pp])' harbour gharbour hbpp
+++ local 'xspec=!*.@([Pp][Rr][Gg]|[Cc][Ll][Pp])' cmd
+++ shift
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@([Pp][Rr][Gg]|[Cc][Ll][Pp])'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@([Pp][Rr][Gg]|[Cc][Ll][Pp])'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@([Pp][Rr][Gg]|[Cc][Ll][Pp])'
+++ _install_xspec '!*.[Hh][Rr][Bb]' hbrun
+++ local 'xspec=!*.[Hh][Rr][Bb]' cmd
+++ shift
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.[Hh][Rr][Bb]'
+++ _install_xspec '!*.ly' lilypond ly2dvi
+++ local 'xspec=!*.ly' cmd
+++ shift
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.ly'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.ly'
+++ _install_xspec '!*.@(dif?(f)|?(d)patch)?(.@([gx]z|bz2|lzma))' cdiff
+++ local 'xspec=!*.@(dif?(f)|?(d)patch)?(.@([gx]z|bz2|lzma))' cmd
+++ shift
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(dif?(f)|?(d)patch)?(.@([gx]z|bz2|lzma))'
+++ _install_xspec '!@(*.@(ks|jks|jceks|p12|pfx|bks|ubr|gkr|cer|crt|cert|p7b|pkipath|pem|p10|csr|crl)|cacerts)' portecle
+++ local 'xspec=!@(*.@(ks|jks|jceks|p12|pfx|bks|ubr|gkr|cer|crt|cert|p7b|pkipath|pem|p10|csr|crl)|cacerts)' cmd
+++ shift
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!@(*.@(ks|jks|jceks|p12|pfx|bks|ubr|gkr|cer|crt|cert|p7b|pkipath|pem|p10|csr|crl)|cacerts)'
+++ _install_xspec '!*.@(mp[234c]|og[ag]|@(fl|a)ac|m4[abp]|spx|tta|w?(a)v|wma|aif?(f)|asf|ape)' kid3 kid3-qt
+++ local 'xspec=!*.@(mp[234c]|og[ag]|@(fl|a)ac|m4[abp]|spx|tta|w?(a)v|wma|aif?(f)|asf|ape)' cmd
+++ shift
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(mp[234c]|og[ag]|@(fl|a)ac|m4[abp]|spx|tta|w?(a)v|wma|aif?(f)|asf|ape)'
+++ for cmd in "$@"
+++ _xspecs[$cmd]='!*.@(mp[234c]|og[ag]|@(fl|a)ac|m4[abp]|spx|tta|w?(a)v|wma|aif?(f)|asf|ape)'
+++ unset -f _install_xspec
+++ complete -F _minimal ''
+++ complete -D -F _completion_loader
+++ compat_dir=/etc/bash_completion.d
+++ [[ -d /etc/bash_completion.d ]]
+++ [[ -r /etc/bash_completion.d ]]
+++ [[ -x /etc/bash_completion.d ]]
+++ for i in "$compat_dir"/*
+++ [[ apport_completion != @(@(#*#|*@(~|.@(bak|orig|rej|swp|dpkg*|rpm@(orig|new|save))))|Makefile*|@(acroread.sh)) ]]
+++ [[ -f /etc/bash_completion.d/apport_completion ]]
+++ [[ -r /etc/bash_completion.d/apport_completion ]]
+++ . /etc/bash_completion.d/apport_completion
++++ complete -F _apport-bug -o filenames -o dirnames ubuntu-bug
++++ complete -F _apport-bug -o filenames -o dirnames apport-bug
++++ complete -F _apport-cli -o filenames -o dirnames apport-cli
++++ complete -F _apport-unpack -o filenames -o dirnames apport-unpack
++++ complete -F _apport-collect apport-collect
+++ for i in "$compat_dir"/*
+++ [[ git-prompt != @(@(#*#|*@(~|.@(bak|orig|rej|swp|dpkg*|rpm@(orig|new|save))))|Makefile*|@(acroread.sh)) ]]
+++ [[ -f /etc/bash_completion.d/git-prompt ]]
+++ [[ -r /etc/bash_completion.d/git-prompt ]]
+++ . /etc/bash_completion.d/git-prompt
++++ [[ -e /usr/lib/git-core/git-sh-prompt ]]
++++ . /usr/lib/git-core/git-sh-prompt
+++++ __git_printf_supports_v=
+++++ printf -v __git_printf_supports_v -- %s yes
+++ unset compat_dir i _blacklist_glob
+++ user_completion=/home/gustavocgsg/.bash_completion
+++ [[ /usr/share/bash-completion/bash_completion != \/\h\o\m\e\/\g\u\s\t\a\v\o\c\g\s\g\/\.\b\a\s\h\_\c\o\m\p\l\e\t\i\o\n ]]
+++ [[ -r /home/gustavocgsg/.bash_completion ]]
+++ unset user_completion
+++ unset -f have
+++ unset have
+++ set +v
+++ unset BASH_COMPLETION_ORIGINAL_V_VALUE
+++ oh-my-posh init bash --config /root/.cache/oh-my-posh/themes/cloud-native-azure.omp.json
++ eval 'export POSH_THEME=/root/.cache/oh-my-posh/themes/cloud-native-azure.omp.json
+export POSH_SHELL_VERSION=$BASH_VERSION
+export POWERLINE_COMMAND="oh-my-posh"
+export POSH_PID=$$
+export CONDA_PROMPT_MODIFIER=false
+omp_start_time=""
+
+# start timer on command start
+PS0='\''${omp_start_time:0:$((omp_start_time="$(_omp_start_timer)",0))}$(_omp_ftcs_command_start)'\''
+# set secondary prompt
+PS2="$(/usr/local/bin/oh-my-posh print secondary --config="$POSH_THEME" --shell=bash --shell-version="$BASH_VERSION")"
+
+function _set_posh_cursor_position() {
+    # not supported in Midnight Commander
+    # see https://github.com/JanDeDobbeleer/oh-my-posh/issues/3415
+    if [[ "false" != "true" ]] || [[ -v MC_SID ]]; then
+        return
+    fi
+
+    local oldstty=$(stty -g)
+    stty raw -echo min 0
+
+    local COL
+    local ROW
+    IFS='\'';'\'' read -sdR -p $'\''\E[6n'\'' ROW COL
+
+    stty $oldstty
+
+    export POSH_CURSOR_LINE=${ROW#*[}
+    export POSH_CURSOR_COLUMN=${COL}
+}
+
+function _omp_start_timer() {
+    /usr/local/bin/oh-my-posh get millis
+}
+
+function _omp_ftcs_command_start() {
+    if [ "false" == "true" ]; then
+        printf "\e]133;C\a"
+    fi
+}
+
+# template function for context loading
+function set_poshcontext() {
+    return
+}
+
+function _omp_hook() {
+    local ret=$? pipeStatus=(${PIPESTATUS[@]})
+    if [[ "${#BP_PIPESTATUS[@]}" -gt "${#pipeStatus[@]}" ]]; then
+        pipeStatus=(${BP_PIPESTATUS[@]})
+    fi
+
+    local omp_stack_count=$((${#DIRSTACK[@]} - 1))
+    local omp_elapsed=-1
+    local no_exit_code="true"
+
+    if [[ -n "$omp_start_time" ]]; then
+        local omp_now=$(/usr/local/bin/oh-my-posh get millis --shell=bash)
+        omp_elapsed=$((omp_now-omp_start_time))
+        omp_start_time=""
+        no_exit_code="false"
+    fi
+
+    set_poshcontext
+    _set_posh_cursor_position
+
+    PS1="$(/usr/local/bin/oh-my-posh print primary --config="$POSH_THEME" --shell=bash --shell-version="$BASH_VERSION" --status="$ret" --pipestatus="${pipeStatus[*]}" --execution-time="$omp_elapsed" --stack-count="$omp_stack_count" --no-status="$no_exit_code" | tr -d '\''\0'\'')"
+    return $ret
+}
+
+if [ "$TERM" != "linux" ] && [ -x "$(command -v /usr/local/bin/oh-my-posh)" ] && ! [[ "$PROMPT_COMMAND" =~ "_omp_hook" ]]; then
+    PROMPT_COMMAND="_omp_hook; $PROMPT_COMMAND"
+fi
+
+if [ "false" == "true" ]; then
+    echo ""
+fi'
+++ export POSH_THEME=/root/.cache/oh-my-posh/themes/cloud-native-azure.omp.json
+++ POSH_THEME=/root/.cache/oh-my-posh/themes/cloud-native-azure.omp.json
+++ export 'POSH_SHELL_VERSION=5.1.16(1)-release'
+++ POSH_SHELL_VERSION='5.1.16(1)-release'
+++ export POWERLINE_COMMAND=oh-my-posh
+++ POWERLINE_COMMAND=oh-my-posh
+++ export POSH_PID=805
+++ POSH_PID=805
+++ export CONDA_PROMPT_MODIFIER=false
+++ CONDA_PROMPT_MODIFIER=false
+++ omp_start_time=
+++ PS0='${omp_start_time:0:$((omp_start_time="$(_omp_start_timer)",0))}$(_omp_ftcs_command_start)'
++++ /usr/local/bin/oh-my-posh print secondary --config=/root/.cache/oh-my-posh/themes/cloud-native-azure.omp.json --shell=bash '--shell-version=5.1.16(1)-release'
+++ PS2='\[\]> \[\]'
+++ '[' xterm-256color '!=' linux ']'
++++ command -v /usr/local/bin/oh-my-posh
+++ '[' -x /usr/local/bin/oh-my-posh ']'
+++ [[ '' =~ _omp_hook ]]
+++ PROMPT_COMMAND='_omp_hook; '
+++ '[' false == true ']'
+++ _omp_hook
+++ pipeStatus=('0')
+++ local ret=0 pipeStatus
+++ [[ 0 -gt 1 ]]
+++ local omp_stack_count=0
+++ local omp_elapsed=-1
+++ local no_exit_code=true
+++ [[ -n '' ]]
+++ set_poshcontext
+++ return
+++ _set_posh_cursor_position
+++ [[ false != \t\r\u\e ]]
+++ return
++++ /usr/local/bin/oh-my-posh print primary --config=/root/.cache/oh-my-posh/themes/cloud-native-azure.omp.json --shell=bash '--shell-version=5.1.16(1)-release' --status=0 --pipestatus=0 --execution-time=-1 --stack-count=0 --no-status=true
++++ tr -d '\0'
+++ PS1='\[\]\[\]\[\]\[\] gustavocgsg@GUSTAVO-DELL \[\]\[\]\[\]\[\]\[\]\[\]\[\]   ~ \[\]\[\]\[\]\[\]\[\]\[\]\[\]   \[\]\[\]\[\]
+                                                          \[\]\[\]\[\]\[\]  bash \[\]\[\]\[\]\[\]\[\]\[\]  100 \[\]\[\]\[\]\[\]\[\]\[\]\[\]  07:31:05 \[\]\[\]\[\]
+\[\] ~ \[\]\[\] '
+++ return 0
+ gustavocgsg@GUSTAVO-DELL    ~                                                                                                                     bash   100   07:31:05 
+ ~  set -e
+++ _omp_start_timer
+++ /usr/local/bin/oh-my-posh get millis
+++ _omp_ftcs_command_start
+++ '[' false == true ']'
++ set -e
+++ _omp_hook
+++ pipeStatus=('0')
+++ local ret=0 pipeStatus
+++ [[ 0 -gt 1 ]]
+++ local omp_stack_count=0
+++ local omp_elapsed=-1
+++ local no_exit_code=true
+++ [[ -n 1697884269241 ]]
++++ /usr/local/bin/oh-my-posh get millis --shell=bash
+++ local omp_now=1697884269246
+++ omp_elapsed=5
+++ omp_start_time=
+++ no_exit_code=false
+++ set_poshcontext
+++ return
+++ _set_posh_cursor_position
+++ [[ false != \t\r\u\e ]]
+++ return
++++ /usr/local/bin/oh-my-posh print primary --config=/root/.cache/oh-my-posh/themes/cloud-native-azure.omp.json --shell=bash '--shell-version=5.1.16(1)-release' --status=0 --pipestatus=0 --execution-time=5 --stack-count=0 --no-status=false
++++ tr -d '\0'
+++ PS1='\[\]\[\]\[\]\[\] gustavocgsg@GUSTAVO-DELL \[\]\[\]\[\]\[\]\[\]\[\]\[\]   ~ \[\]\[\]\[\]\[\]\[\]\[\]\[\]   \[\]\[\]\[\]
+                                                          \[\]\[\]\[\]\[\]  bash \[\]\[\]\[\]\[\]\[\]\[\]  100 \[\]\[\]\[\]\[\]\[\]\[\]\[\]  07:31:09 \[\]\[\]\[\]
+\[\] ~ \[\]\[\] '
+++ return 0
